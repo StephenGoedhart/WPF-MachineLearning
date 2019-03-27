@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI-Executor", "AI\AI-Executor.csproj", "{00ED42E4-75DE-40DB-A254-D22C14B84D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLA", "MLA\MLA.csproj", "{01637DE3-607A-4539-9775-E2E29F67A0D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00ED42E4-75DE-40DB-A254-D22C14B84D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00ED42E4-75DE-40DB-A254-D22C14B84D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00ED42E4-75DE-40DB-A254-D22C14B84D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00ED42E4-75DE-40DB-A254-D22C14B84D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01637DE3-607A-4539-9775-E2E29F67A0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01637DE3-607A-4539-9775-E2E29F67A0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01637DE3-607A-4539-9775-E2E29F67A0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01637DE3-607A-4539-9775-E2E29F67A0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CE55414-1751-4237-AF33-929385C3EB68}
+	EndGlobalSection
+EndGlobal
