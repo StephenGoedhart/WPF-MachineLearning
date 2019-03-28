@@ -1,11 +1,20 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Drawing;
+using System.Windows.Forms;
+using MLA;
+using MLA.KMeans;
 
 namespace MLA
 {
     public class ImageViewer
-    {
+    {        
         public static Bitmap CreateBitmapFromColors(Color[,] image)
         {
             Bitmap bitmap = new Bitmap(image.GetLength(1), image.GetLength(0));
